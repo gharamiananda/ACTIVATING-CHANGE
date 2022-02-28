@@ -1,0 +1,117 @@
+
+.button {
+    background: #000;
+    color: #fff;
+    padding: 13px 25px;
+    display: table;
+	border:2px solid #000;
+    margin: 0 ;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+	letter-spacing:0.5px;
+	border-radius:0px;
+}
+
+.btn-bdr {
+	background:transparent;
+	border:2px solid #000;
+	color:#000;
+}
+
+.button.color {
+	border-color:#54E346;
+	background:#54E346;
+}
+
+.button.btn-bdr.color {
+	border-color:#54E346;
+	background:transparent;
+	color:#54E346;
+}
+
+.button.lite {
+	border-color:#eee;
+	background:#eee;
+	color:#54E346;
+}
+
+.button:hover {
+	background:#54E346;
+	border-color:#54E346;
+	color:#fff;
+}
+
+.btn-xs {
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+.btn-lg {
+    padding: 20px 20px;
+    font-size: 16px;
+}
+
+.btn-radius {
+	border-radius:4px;
+}
+
+.btn-center {
+	margin:0 auto;
+}	
+
+.btn-list {
+margin:0 0 35px;
+}
+
+.btn-list a {
+	display:inline-block;
+	margin-right:5px;
+}
+
+.button.color:hover {
+	border-color:#000;
+	background:#000;
+	color:#fff;
+}
+
+.button.lite:hover {
+	border-color:#000;
+	background:#000;
+	color:#fff;
+}
+
+
+.main-btn {
+	border: medium none;
+    border-radius: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    height:39px;
+    padding: 0 52px;
+    position: relative;
+    text-transform: uppercase;
+	display:inline-block;
+	float:none;
+	text-align:center;
+	line-height:33px;
+	
+}
+
+.main-btn:before {
+    display: block;
+    height: 5px;
+    left: 20px;
+    position: absolute;
+    top: -1px;
+    width: 5px;	
+}
+
+.main-btn:after {
+    display: block;
+    height: 5px;
+    position: absolute;
+    right: 20px;
+    top: -1px;
+    width: 5px;
+}
