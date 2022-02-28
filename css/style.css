@@ -9,6 +9,7 @@ body {
 	margin: 0;
 
 	font-weight:400;
+	font-family: 'Open Sans', sans-serif;
 
 }
 li, ul, ol {
@@ -78,13 +79,16 @@ header .fa-solid{
 	display: inline-block;
 }
 
-header .custom-navbar .nav-item{
-	padding: 10px 0;
-}
+
+
 
 header .custom-navbar .nav-item .nav-link {
-color: #fff !important;
-}
+    color: #fff !important;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;}
+
+
 header .custom-navbar .nav-item .nav-link.active, 
 header .custom-navbar .nav-item .nav-link:hover {
 color: var(--yellow) !important;
