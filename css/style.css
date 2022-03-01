@@ -28,7 +28,7 @@ h1{
 
 p{
 	font-family: 'Open Sans', sans-serif;
-	font-size:13px;
+	font-size:15px;
 	line-height:23px;
 	margin:0;
 	padding:0;		
@@ -51,6 +51,10 @@ a:hover {
 #wrapper {
 }
 
+
+.section-gap-30{
+    padding: 30px 0;
+}
 
 /* Color pallate  */
 :root{
@@ -80,7 +84,11 @@ header .fa-solid{
 }
 
 
-
+i.fa-solid.fa-bars-staggered.navbar-toggler-icon {
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 1px;
+}
 
 header .custom-navbar .nav-item .nav-link {
     color: #fff !important;
@@ -177,12 +185,13 @@ header{border-bottom: 3px solid var(--secondary-color);}
 	width: 600px;
 	padding: 10px 20px;
   }
-
-
-
-#about-section p{
-	margin: 0 0 25px;
+.banner-content-box h1{
+    text-transform: uppercase;
+    font-weight: 600;
 }
+
+
+
  h2{
 	
 	font-family: 'Bebas Neue', cursive;
@@ -195,6 +204,9 @@ header{border-bottom: 3px solid var(--secondary-color);}
 
 
 /* Service section  */
+.services_wrapper{
+    background-color: #7FD1C2;
+}
 .single-service{
 	
 	padding:  25px 0;
@@ -208,6 +220,7 @@ header{border-bottom: 3px solid var(--secondary-color);}
 /* 8 Reviews */
 .testimonial_wrapper{
     padding:100px 0;
+ 
 }
 .testimonial_wrapper .testimonials_subtitle{ 
     font-size: 20px;
@@ -253,7 +266,8 @@ header{border-bottom: 3px solid var(--secondary-color);}
 
 #testimonial .title-box  {padding-bottom: 0;}
 
-
+.carousel .carousel-indicators li {background-color: red;}
+.carousel .carousel-indicators li.active {background-color: blue;}
 
 
 
@@ -261,7 +275,7 @@ header{border-bottom: 3px solid var(--secondary-color);}
 .footer_wrapper{
     width:100%;
     height:auto;
-    background-image:url('../images/footer-bg.png');
+background-color: var(--primary-color);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
